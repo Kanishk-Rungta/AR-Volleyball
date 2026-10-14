@@ -1,0 +1,9 @@
+.godot/
+.tools/
+android/build/
+native/.gradle/
+native/**/build/
+native/local.properties
+build/*.apk
+build/*.aab
+hs_err_pid*.log

@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+    <application>
+        <meta-data android:name="com.google.ar.core" android:value="required" />
+        <meta-data android:name="org.godotengine.plugin.v2.PocketAR" android:value="org.pocketterrain.ar.PocketARPlugin" />
+    </application>
+</manifest>
